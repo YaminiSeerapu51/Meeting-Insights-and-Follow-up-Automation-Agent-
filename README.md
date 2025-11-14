@@ -33,11 +33,7 @@ An AI-powered assistant that automates meeting transcription, summarization, tas
    git clone [https://github.com/yourusername/meeting-insights-agent.git](https://github.com/yourusername/meeting-insights-agent.git)
    cd meeting-insights-agent
 ### Architecture
-graph TD
-    A[Audio/Text Input] --> B[Whisper Transcription]
-    B --> C[GPT-4 Analysis]
-    C --> D[Summary & Action Items]
-    D --> E[Google Calendar]
-    D --> F[AWS S3 Storage]
+<img width="381" height="310" alt="image" src="https://github.com/user-attachments/assets/9f40e942-3126-4436-aa32-4a6634f775e7" />
+
 
    
