@@ -32,6 +32,33 @@ An AI-powered assistant that automates meeting transcription, summarization, tas
    ```bash
    git clone [https://github.com/yourusername/meeting-insights-agent.git](https://github.com/yourusername/meeting-insights-agent.git)
    cd meeting-insights-agent
+###  Set up environment
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+
+### Install dependencies
+pip install -r requirements.txt
+
+### Configure environment variables
+cp .env.example .env
+# Edit .env with your credentials
+
+### Run the application
+streamlit run app.py
+
+### Using Docker
+# Build and start containers
+docker-compose up --build
+# Access the app at http://localhost:8501
+
+### Deployment
+AWS Deployment with Terraform
+cd terraform
+terraform init
+terraform plan
+terraform apply
+
 ### Architecture
 <img width="381" height="310" alt="image" src="https://github.com/user-attachments/assets/9f40e942-3126-4436-aa32-4a6634f775e7" />
 
